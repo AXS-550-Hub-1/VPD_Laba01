@@ -6,10 +6,9 @@ using namespace std;
 
 int main(){
 
-    // Настройка терминала на вывод кириллицы
+    // Настройка консоли на вывод кириллицы
     SetConsoleOutputCP(65001);
-    SetConsoleCP(65001);
-
+    
     // Входные данные 
     string student_name_ru = "Александр Карасев";
     string student_name_en = "Alexandr Karasev";
