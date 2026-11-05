@@ -1,0 +1,87 @@
+"C:/Program Files/Java/jdk-21.0.12.1/bin/javap" -c java_project/Main
+
+Compiled from "Main.java"
+public class java_project.Main {
+  public java_project.Main();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: sipush        5776
+       3: istore_1
+       4: ldc           #7                  // String %s/%02d
+       6: iconst_2
+       7: anewarray     #2                  // class java/lang/Object
+      10: dup
+      11: iconst_0
+      12: ldc           #9                  // String М3О-109БВ-26
+      14: aastore
+      15: dup
+      16: iconst_1
+      17: bipush        19
+      19: invokestatic  #11                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      22: aastore
+      23: invokestatic  #17                 // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      26: astore_2
+      27: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      30: ldc           #29                 // String Hello to 304 from %s, number %d, group %s!\n
+      32: iconst_3
+      33: anewarray     #2                  // class java/lang/Object
+      36: dup
+      37: iconst_0
+      38: ldc           #31                 // String Alexandr Karasev
+      40: aastore
+      41: dup
+      42: iconst_1
+      43: bipush        19
+      45: invokestatic  #11                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      48: aastore
+      49: dup
+      50: iconst_2
+      51: ldc           #9                  // String М3О-109БВ-26
+      53: aastore
+      54: invokevirtual #33                 // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+      57: pop
+      58: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      61: ldc           #39                 // String Привет, 304! Это %s, номер %d, группа %s!\n
+      63: iconst_3
+      64: anewarray     #2                  // class java/lang/Object
+      67: dup
+      68: iconst_0
+      69: ldc           #41                 // String Александр Карасев
+      71: aastore
+      72: dup
+      73: iconst_1
+      74: bipush        19
+      76: invokestatic  #11                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      79: aastore
+      80: dup
+      81: iconst_2
+      82: ldc           #9                  // String М3О-109БВ-26
+      84: aastore
+      85: invokevirtual #33                 // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+      88: pop
+      89: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      92: ldc           #43                 // String Student ID: %s | Language: %s | Control: %d
+      94: iconst_3
+      95: anewarray     #2                  // class java/lang/Object
+      98: dup
+      99: iconst_0
+     100: aload_2
+     101: aastore
+     102: dup
+     103: iconst_1
+     104: ldc           #45                 // String Java
+     106: aastore
+     107: dup
+     108: iconst_2
+     109: iload_1
+     110: invokestatic  #11                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     113: aastore
+     114: invokevirtual #33                 // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+     117: pop
+     118: return
+}
