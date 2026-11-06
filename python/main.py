@@ -12,7 +12,7 @@ control_value = 304 * student_number
 word_count = len(student_name_en.split())
 
 # Вывод строк
-print("Hello to 304 from",student_name_ru,"\b, number", student_number,"\b, group", group_number,"\b!")
+print("Hello to 304 from",student_name_en,"\b, number", student_number,"\b, group", group_number,"\b!")
 print("Привет, 304! Это",student_name_ru, "\b, номер", student_number,"\b, группа", group_number,"\b!")
 print("Student ID:", student_id, "| Language:", language_name, "| Control:", control_value)
 print("Количество слов:", word_count)
