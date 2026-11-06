@@ -27,3 +27,5 @@ printfn $"Hello to 304 from {student.StudentNameEn}, number {student.StudentNumb
 printfn $"Привет, 304! Это {student.StudentNameRu}, номер {student.StudentNumber}, группа {student.GroupNumber}!"
 printfn $"Student ID: {studentID} | Language: {student.LanguageName} | Control: {controlValue}"
 printfn $"Сумма длин слов в StudentNameRu: {wordsSum}"
+
+//dotnet fsi --exec fsharp/main.fsx

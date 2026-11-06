@@ -30,4 +30,4 @@ console.log(`Hello to 304 from ${student.studentNameRu}, number ${student.studen
 console.log(`Привет, 304! Это ${student.studentNameRu}, номер ${student.studentNumber}, группа ${student.groupNumber}!`);
 console.log(`Student ID: ${newInfo.studentID} | Language: ${student.languageName} | Control: ${newInfo.controlValue}`);
 
-//tsc type_script/main.ts --outDir type_script/main.js  &&  node ./type_script/main.js
+//tsc type_script/main.ts --outDir type_script/compiled  &&  node ./type_script/compiled/main.js
