@@ -97,3 +97,5 @@ Hello to 304 from Alexandr Karasev, number 19, group М3О-109БВ-26!
 Привет, 304! Это Александр Карасев, номер 19, группа М3О-109БВ-26!
 Student ID: М3О-109БВ-26/19 | Language: C | Control: 5776
 ```
+
+Это написал 2 разработчик
