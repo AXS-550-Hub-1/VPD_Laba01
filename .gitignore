@@ -1,6 +1,7 @@
 *.exe
 *.pdb
 *.class
+*.o
 
 
 type_script/compiled
