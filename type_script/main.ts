@@ -1,3 +1,4 @@
+export {};
 interface Info{
     studentNameRu: string;
     studentNameEn: string;
