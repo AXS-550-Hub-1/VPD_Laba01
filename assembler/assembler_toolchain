@@ -1,0 +1,3 @@
+as assembler/main.s -o assembler/main.o
+gcc assembler/main.o -o assembler/main.exe
+./assembler/main.exe
