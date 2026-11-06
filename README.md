@@ -98,4 +98,8 @@ Hello to 304 from Alexandr Karasev, number 19, group М3О-109БВ-26!
 Student ID: М3О-109БВ-26/19 | Language: C | Control: 5776
 ```
 
+<<<<<<< HEAD
 Это написал 1 разработчик
+=======
+Это написал 2 разработчик
+>>>>>>> a5965d300cc01cf3202add30aeebc9be8268038d
