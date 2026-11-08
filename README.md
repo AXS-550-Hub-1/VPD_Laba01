@@ -49,8 +49,8 @@
 
 # Выводы строк:
 
-![Изображение не выведено](scrinshots/Вывод%20as,%20bash,%20c,%20cpp,%20csharp,%20fsharp,%20go,%20java.png)
-![Изображение не выведено](scrinshots/Вывод%20js,%20prolog,%20python,%20rust,%20ts.png)
+![Изображение не выведено](scrinshots/output_as_bash_c_cpp_csharp_fsharp_go_java.png)
+![Изображение не выведено](scrinshots/output_js_prolog_python_rust_ts.png)
 
 
 Обеспечение корректного вывода кириллицы
@@ -105,22 +105,22 @@ Hello to 304 from Alexandr Karasev, number 19, group М3О-109БВ-26!
 Student ID: М3О-109БВ-26/19 | Language: C | Control: 5776
 ```
 
-Провека конфлитка слияния: 1
-Провека конфлитка слияния: 2
-(Выбран вариант Accept Both Changes)
+Провека конфлитка слияния: 1  
+Провека конфлитка слияния: 2  
+(Выбран вариант Accept Both Changes)  
 
 # Конфликт слияния
 До разрешения:
-![Изображение не выведено](scrinshots/Состояние до разрешения конфликта слияния.png)
+![Изображение не выведено](scrinshots/status_before.png)
 После разрешения:
-![Изображение не выведено](scrinshots/Состояние после разрешения конфликта.png)
+![Изображение не выведено](scrinshots/status_after.png)
 
 # Финальные выводы:
-`git status`:
-![Изображение не выведено](scrinshots/git_status.png)
-`git log --oneline --graph --all --decorate`:
-![Изображение не выведено](scrinshots/git_oneline.png)
-`git tag`:
-![Изображение не выведено](scrinshots/git_tag.png)
-`git remote -v`:
-![Изображение не выведено](scrinshots/git_remote.png)
+`git status`:  
+![Изображение не выведено](scrinshots/git_status.png)  
+`git log --oneline --graph --all --decorate`:  
+![Изображение не выведено](scrinshots/git_oneline.png)  
+`git tag`:  
+![Изображение не выведено](scrinshots/git_tag.png)  
+`git remote -v`:  
+![Изображение не выведено](scrinshots/git_remote.png)  
