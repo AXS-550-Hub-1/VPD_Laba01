@@ -117,9 +117,10 @@ Student ID: М3О-109БВ-26/19 | Language: C | Control: 5776
 
 # Финальные выводы:
 `git status`:
-
+![Изображение не выведено](scrinshots/git_status.png)
 `git log --oneline --graph --all --decorate`:
-
+![Изображение не выведено](scrinshots/git_oneline.png)
 `git tag`:
-
+![Изображение не выведено](scrinshots/git_tag.png)
 `git remote -v`:
+![Изображение не выведено](scrinshots/git_remote.png)
