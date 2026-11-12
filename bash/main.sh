@@ -10,7 +10,7 @@ language_name="Bash"
 # Вычисление контрольного значения, student_id и количества символов в student_name_en
 control_value=$((304*student_number))
 printf -v student_id "%s/%02d" $group_number $student_number 
-len=$(echo student_name_en | wc -m)
+len=$(echo $student_name_en | wc -m)
 
 
 echo "Hello to 304 from $student_name_en, number $student_number, group $group_number!"
