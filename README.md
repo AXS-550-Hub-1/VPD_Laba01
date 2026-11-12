@@ -26,8 +26,8 @@
 
 |Язык|Версия инструмента|Команда сборки/запуска|Тип результата|
 |:---:|:---:|:---:|:---:|
-|C|gcc.exe (Rev5, Built by MSYS2 project) 16.1.0|gcc c/main.c -o c/main.exe && ./c/main.exe|Native Executable|
-|C++|g++.exe (Rev5, Built by MSYS2 project) 16.1.0|g++ cpp/main.cpp -o cpp/main.exe && ./cpp/main.exe|Native Executable|
+|C|gcc.exe (Rev6, Built by MSYS2 project) 16.2.0|gcc c/main.c -o c/main.exe && ./c/main.exe|Native Executable|
+|C++|g++.exe (Rev6, Built by MSYS2 project) 16.2.0|g++ cpp/main.cpp -o cpp/main.exe && ./cpp/main.exe|Native Executable|
 |C#|10.0.402|dotnet run csharp/main.cs|Bytecode|
 |F#|10.0.402|dotnet fsi --exec fsharp/main.fsx|Bytecode|
 |Go|go1.27.3 windows/amd64|go run go/main.go|Native Executable|
@@ -38,7 +38,7 @@
 |Rust|rustc 1.99.1 (58cf8f9c3 2026-10-13)|rustc rust/main.rs -o rust/main && ./rust/main|Native Executable|
 |Bash|GNU bash, version 5.3.15(2)-release (x86_64-pc-cygwin)|chmod +x bash/main.sh && ./bash/main.sh|Script|
 |Prolog|SWI-Prolog version 10.0.2 for x64-win64|swipl -q -s prolog/main.pl -g main -t halt|Script / Bytecode|
-|Assembler|GNU assembler (GNU Binutils) 2.46|as assembler/main.s -o assembler/main.o && gcc assembler/main.o -o assembler/main.exe && ./assembler/main.exe|Native Executable / Object File|
+|Assembler|GNU assembler (GNU Binutils) 2.47.20260726|as assembler/main.s -o assembler/main.o && gcc assembler/main.o -o assembler/main.exe && ./assembler/main.exe|Native Executable / Object File|
 
 Дополнительная информация для Assembler:
 - ОС: Windows 10 Pro, 64-разрядная
