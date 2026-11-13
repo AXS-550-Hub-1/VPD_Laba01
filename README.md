@@ -2,6 +2,7 @@
 # Языки программирования, терминал и Git
 
 Карасев Александр Сергеевич М3О-109БВ-26 19 
+Контрольное зачение = 304 * 19 = 5776
 ОС и окружение: Windows 10 + VSCode + Git Bash
 
 Цель проекта:
@@ -43,7 +44,7 @@
 Дополнительная информация для Assembler:
 - ОС: Windows 10 Pro, 64-разрядная
 - Архитектура процессора: x86-64
-- toolchain: VScode, as (GNU assembler 2.46), gcc (16.1.0)
+- toolchain: VScode, as (GNU assembler 2.47.20260726), gcc (16.2.0)
 - Команды сборки: as assembler/main.s -o assembler/main.o && gcc assembler/main.o -o assembler/main.exe 
 - Команда запуска: ./assembler/main.exe
 
